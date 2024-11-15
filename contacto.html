@@ -18,7 +18,8 @@
             <a href="index.html">
                 <img src="images/logo.png" id="logo" alt="Logo" class="img-fluid" style="max-height: 50px;">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
@@ -37,16 +38,57 @@
                     </li>
                 </ul>
             </div>
-            
+
             <button onclick="cambiarTema()" class="btn rounded-fill">
                 <i id="icono-change-tema" class="bi bi-moon-stars-fill" style="font-size: 20px;"></i>
             </button>
         </div>
     </nav>
 
-    <!-- Carrusel -->
+    <!-- Formulario -->
     <main>
-        
+        <div class="container">
+            <h2 class="display-4 text-center font-weight-bold my-4">
+                ¿Listo para Inmortalizar Tu Momento?
+            </h2>
+            <p class="lead">Si estás interesado en reservar una sesión fotográfica, tienes alguna pregunta sobre mis
+                servicios, o simplemente quieres saber más sobre mi trabajo, no dudes en enviarme un mensaje. Estoy aquí
+                para ayudarte a capturar esos momentos especiales y convertirlos en recuerdos inolvidables.</p>
+            <p class="lead">Completa el formulario a continuación y me pondré en contacto contigo lo antes posible.
+                También puedes contactarme a través de mis redes sociales o por teléfono. ¡Estoy deseando conocerte y
+                ser parte de tu historia!</p>
+
+            <form action="" class="mb-4">
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingNombre" placeholder="Nombre">
+                    <label for="floatingNombre">Nombre</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Email</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="tel" class="form-control" id="floatingTelefono" placeholder="teléfono">
+                    <label for="floatingTelefono">Teléfono</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="date" class="form-control" id="floatingFechaNacimiento" placeholder="dd/mm/aaaa">
+                    <label for="floatingFechaNacimiento">Fecha nacimiento</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="color" class="form-control" id="floatingColor" placeholder="Color">
+                    <label for="floatingColor">Color de imagen</label>
+                </div>
+                <div class="form-floating mb-3">
+                </div>
+                <div class="form-floating mb-3">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                        style="height: 100px"></textarea>
+                    <label for="floatingTextarea2">Descripción</label>
+                </div>
+                <button type="submit" class="btn btn-outline-secondary w-100">Enviar</button>
+            </form>
+        </div>
     </main>
 
     <!-- Pie de pagina -->
